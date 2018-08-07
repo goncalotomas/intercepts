@@ -7,7 +7,7 @@
     stdlib
    ]},
   {env,[]},
-  {modules, []},
+  {modules, [ intercept, intercepts_config, intercepts_pt, intercepts_redbug, intercepts_redbug, intercepts]},
 
   {maintainers, []},
   {licenses, ["Apache 2.0"]},
